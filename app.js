@@ -80,15 +80,15 @@ function draw() {
             // vertex(x, y)
 
             /////////////////////////////////////
-            // let x = r*0.7 * t * sin(i)*cos(i);
-            // let y = r*0.7 * t * cos(i)*sin(i);
-            // // vertex(x, y)
+            let x = r*0.7 * t * sin(i)*cos(i);
+            let y = r*0.7 * t * cos(i)*sin(i);
+            vertex(x, y)
 
-            // let a = r*0.7 * t * sin(i);
-            // let b = r*0.7 * t * cos(i);
-            // // vertex(a, b)
+            let a = r*0.7 * t * sin(i);
+            let b = r*0.7 * t * cos(i);
+            vertex(a, b)
 
-            // vertex(a-x, b-y)
+            vertex(a-x, b-y)
             /////////////////////////////////////
             // let x = r*0.7 * t * sin(i)*cos(i);
             // let y = r*0.7 * cos(i)*sin(i);
